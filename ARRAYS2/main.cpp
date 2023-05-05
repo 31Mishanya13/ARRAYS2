@@ -1,8 +1,6 @@
-// ARRAYS2
+
 #include<iostream>
 using namespace std;
-
-#define tab "\t"
 
 void main()
 {
