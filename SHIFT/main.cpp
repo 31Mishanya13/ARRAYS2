@@ -1,4 +1,4 @@
-//SHIFT 
+п»ї//SHIFT 
 #include<iostream>
 using namespace std;
 
@@ -10,15 +10,15 @@ void main()
     const int n = 10;
     int arr[n] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
-    //Вывод исходного массива на экран
+    //Р’С‹РІРѕРґ РёСЃС…РѕРґРЅРѕРіРѕ РјР°СЃСЃРёРІР° РЅР° СЌРєСЂР°РЅ
     for (int i = 0; i < n; i++)
     {
         cout << arr[i] << tab;
     }
     cout << endl;
-    //Циклический сдвиг массива
+    //Р¦РёРєР»РёС‡РµСЃРєРёР№ СЃРґРІРёРі РјР°СЃСЃРёРІР°
     int namber_of_shifts;
-    cout << "Введите количество сдвигов: "; cin >> namber_of_shifts;
+    cout << "Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃРґРІРёРіРѕРІ: "; cin >> namber_of_shifts;
     for (int i = 0; i < namber_of_shifts; i++)
     {
         int buffer = arr[n - 1];
@@ -28,7 +28,7 @@ void main()
         }
         arr[0] = buffer;
     }
-    //Вывод сдвинутого массива на экран
+    //Р’С‹РІРѕРґ СЃРґРІРёРЅСѓС‚РѕРіРѕ РјР°СЃСЃРёРІР° РЅР° СЌРєСЂР°РЅ
     for (int i = 0; i < n; i++)
     {
         cout << arr[i] << tab;
